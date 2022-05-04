@@ -20,10 +20,11 @@ import settings from './settings.png'
 import steve from './steve.png' 
 import tom from './tom.png'
 import urgent from './urgentBtn.png'
+import transactions from './transactions.png'
 
 
 const images ={
     active,charts,chris,christian,click,defaultbtn,henry,Home,johnkent,logo,matt,newBtn,notification,payout,referrals
-    ,robert,sam,search,settings,steve,tom,urgent
+    ,robert,sam,search,settings,steve,tom,urgent,transactions
 }
 export default images
