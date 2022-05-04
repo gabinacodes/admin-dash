@@ -1,9 +1,9 @@
 import images from '../image/index'
-import styles from "../styles/modules/Sidebar.modules.scss"
+import styles from '../styles/modules/Sidebar.modules.scss'
 const SideBar = () => {
   return (
     <>
-      <div >
+      <div className={styles.flex}>
        <img src={images.logo} alt="logo"/>
        <h5>Language Acad</h5>
       </div>
