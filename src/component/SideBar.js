@@ -1,9 +1,9 @@
 import images from '../image/index'
-import styles from '../styles/modules/Sidebar.modules.scss'
+import styles from "../styles/modules/sideBar.module.scss"
 const SideBar = () => {
   return (
-    <>
-      <div className={styles.flex}>
+    <div className={styles.div}>
+      <div>
        <img src={images.logo} alt="logo"/>
        <h5>Language Acad</h5>
       </div>
@@ -31,7 +31,7 @@ const SideBar = () => {
           <img src={images.Home} alt="home"/>
           <p>Home</p>
       </div>
-    </>
+    </div>
   );
 }
 
