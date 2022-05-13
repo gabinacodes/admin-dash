@@ -1,8 +1,8 @@
 import images from '../image/index'
-import styles from "../styles/modules/sideBar.module.scss"
+import Style from '../styles/modules/'
 const SideBar = () => {
   return (
-    <div className={styles.div}>
+    <div >
       <div>
        <img src={images.logo} alt="logo"/>
        <h5>Language Acad</h5>
