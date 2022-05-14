@@ -1,6 +1,6 @@
 import images from '../image/index'
-import Style from '../styles/modules/'
-const SideBar = () => {
+import Styles from '../styles/modules/sidebar.module.scss'
+const Sidebar = () => {
   return (
     <div >
       <div>
@@ -35,4 +35,4 @@ const SideBar = () => {
   );
 }
 
-export default SideBar;
+export default Sidebar;
