@@ -8,7 +8,10 @@ import mail from './mail.png'
 import phone from './phone.png'
 import twitter from './twitter.png'
 import tractor from './tractor.png'
+import hamburger from './hamburgar.png'
+import hamburgerW from './hamburgarW.png'
 const Image={
-    logo,account,cart, wishlist,facebook,instagram,mail,phone,twitter, tractor
+    logo,account,cart, wishlist,facebook,instagram,mail,phone,twitter, tractor,
+    hamburger,hamburgerW
 }
 export default Image
