@@ -1,13 +1,13 @@
-
-import Sidebar from "./component/Sidebar";
-
+import React from 'react';
 
 function App() {
   return (
-    <div className="App">
-    <Sidebar/>
+    <div>
+      
     </div>
   );
 }
 
 export default App;
+
+
