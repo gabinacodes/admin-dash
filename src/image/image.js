@@ -8,7 +8,7 @@ import mail from './mail.png'
 import phone from './phone.png'
 import twitter from './twitter.png'
 
-const Image=[
+const Image={
     logo,account,cart, wishlist,facebook,instagram,mail,phone,twitter
-]
+}
 export default Image

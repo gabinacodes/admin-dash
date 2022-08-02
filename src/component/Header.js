@@ -4,37 +4,37 @@ import { Link, Outlet } from 'react-router-dom';
 import Styles from   "../styles/modules/header.module.scss"
 function Header() {
   return (
-    <div className={Styles.nav1}>
-      <div>
-        <img src={Image.logo}/>
-       <div>
+    <div>
+      <div  className={Styles.nav1}>
+        <img src={Image.logo} alt="logo"/>
+       <div className={Styles.input} >
        <input type="text" placeholder='search'/>
-        <input type="submit" value="Search"/>
+        <button>Search</button>
        </div>
-       <div>
-       <img src={Image.account}/>
+       <div  className={Styles.nav}>
+       <img src={Image.account} alt="img"/>
        <p>Account</p>
        </div>
-       <div>
-       <img src={Image.wishlist}/>
+       <div  className={Styles.nav}>
+       <img src={Image.wishlist} alt="img"/>
        <p>Wishlist</p>
        </div>
-       <div>
-       <img src={Image.cart}/>
+       <div  className={Styles.nav}>
+       <img src={Image.cart} alt="img"/>
        <p>Cart</p>
        </div>
       </div>
-      <div>
+      <div className={Styles.nav2}>
       <Link to="/">Home</Link>
-        <a> About Us</a>
-        <a>Services </a>
-        <a>Stock</a>
-        <a>Hire </a>
-        <a>Gallery</a>
-        <a>Consultation</a>
-        <a>Parts & Maintenance </a>
-        <a>FAQs</a>
-        <a>Contact Us</a>
+        <Link> About Us</Link>
+        <Link>Services </Link>
+        <Link>Stock</Link>
+        <Link>Hire </Link>
+        <Link>Gallery</Link>
+        <Link>Consultation</Link>
+        <Link>Parts & Maintenance </Link>
+        <Link>FAQs</Link>
+        <Link>Contact Us</Link>
       </div>
       <Outlet/>
     </div>
