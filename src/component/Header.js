@@ -12,29 +12,29 @@ function Header() {
         <button>Search</button>
        </div>
        <div  className={Styles.nav}>
-       <img src={Image.account} alt="img"/>
+       <img src={Image.account} alt="logo"/>
        <p>Account</p>
        </div>
        <div  className={Styles.nav}>
-       <img src={Image.wishlist} alt="img"/>
+       <img src={Image.wishlist} alt="logo"/>
        <p>Wishlist</p>
        </div>
        <div  className={Styles.nav}>
-       <img src={Image.cart} alt="img"/>
+       <img src={Image.cart} alt="logo"/>
        <p>Cart</p>
        </div>
       </div>
       <div className={Styles.nav2}>
       <Link to="/">Home</Link>
-        <Link> About Us</Link>
-        <Link>Services </Link>
-        <Link>Stock</Link>
-        <Link>Hire </Link>
-        <Link>Gallery</Link>
-        <Link>Consultation</Link>
-        <Link>Parts & Maintenance </Link>
-        <Link>FAQs</Link>
-        <Link>Contact Us</Link>
+        <a href='/'> About Us</a>
+        <a href='/'>Services </a>
+        <a href='/'>Stock</a>
+        <a href='/'>Hire </a>
+        <a href='/'>Gallery</a>
+        <a href='/'>Consultation</a>
+        <a href='/'>Parts & Maintenance </a>
+        <a href='/'>FAQs</a>
+        <a href='/'>Contact Us</a>
       </div>
       <Outlet/>
     </div>
